@@ -1,0 +1,7 @@
+body{
+       background-image: url("images/back_img1.jpg");
+       /*background-repeat: no-repeat;*/
+}
+#div_signup{
+	margin-left: 200px;
+}
