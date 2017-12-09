@@ -1,0 +1,81 @@
+body{
+      /*background-image: url('images/back_img11.jpg');*/
+      background-image: url('images/back_img6.jpg');
+      /*background-repeat: no-repeat;*/
+}
+
+#nav_ul1 li a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+#nav_ul1 li a:hover{
+    background-color: lightgray;
+    color: #ea7915;
+}
+
+#nav_ul2 li a:hover{
+    background-color: lightgray;
+    color: #ea7915;
+}
+
+#nav1{
+	margin-top: 2px;
+	margin-left: 20px;
+	margin-right: 20px;
+	line-height: 150px;
+	height: 5px;
+	padding-top: 0;
+	background-color: gray;
+}
+
+#nav1_p{
+	text-align: center;
+	margin-left: 30%;
+}
+
+#div1{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#ul1 li{
+	margin-right:10px;
+	font-weight:28px;
+}
+
+#ul2 li{
+	border-style: solid;
+	border-color: #ff0000 #0000ff;
+	margin-right:10px;
+}
+
+@media only screen and (max-width: 49px){
+    #country { width: 50%; }
+    #district { width: 50%; }
+    #month { width: 50%; }
+    #day { width: 50%; }
+}
+
+
+
+
+
+
+
+
+
+
